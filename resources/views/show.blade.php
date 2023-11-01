@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="antialiased">
@@ -30,8 +31,7 @@
     {{-- breadcrumb --}}
     @include('fontend.layout.breadcrumb')
     {{-- product --}}
-    @include('fontend.layout.product')
-    @yield('content')
+    @include('fontend.layout.showproduct')
     <!-- Partner Logo Section Begin -->
     @include('fontend.layout.partner')
     {{-- footer --}}

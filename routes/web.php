@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\Product;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/', function () {
 // Search
 Route::get('search', [SearchController::class, 'search'])->name('searchresult');
 Route::post('search', [SearchController::class, 'search']);
+Route::get('/index',[Product::class,'index'])->name('show');
