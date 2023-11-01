@@ -30,7 +30,7 @@
     {{-- breadcrumb --}}
     @include('fontend.layout.breadcrumb')
     {{-- product --}}
-    @include('fontend.layout.product')
+    {{-- @include('fontend.layout.product') --}}
     @yield('content')
     <!-- Partner Logo Section Begin -->
     @include('fontend.layout.partner')

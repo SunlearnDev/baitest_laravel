@@ -8,7 +8,7 @@
                      <b>hello.colorlib@gmail.com
                  </div>
                  <div class="phone-service">
-                     <i class=" fa fa-phone"></i>
+                     <i class="fa fa-phone"></i>
                      +65 11.188.888
                  </div>
              </div>
@@ -42,7 +42,7 @@
              <div class="row">
                  <div class="col-lg-2 col-md-2">
                      <div class="logo">
-                         <a href="#">
+                         <a href="/">
                              <img src="img/logo.png" alt="">
                          </a>
                      </div>
