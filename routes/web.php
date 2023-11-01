@@ -15,11 +15,15 @@ use App\Http\Controllers\Product;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Search
 Route::get('search', [SearchController::class, 'search'])->name('searchresult');
 
-Route::get('/index',[Product::class,'index'])->name('show');
+// Home
+Route::get('/',[Product::class,'index']);
+
+// Detail
+Route::get('/index/{id}',[Product::class,'show'])->name('show');

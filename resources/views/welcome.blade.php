@@ -36,8 +36,6 @@
     @include('fontend.layout.partner')
     {{-- footer --}}
     @include('fontend.layout.footer')
-
-
 </body>
 
 </html>
