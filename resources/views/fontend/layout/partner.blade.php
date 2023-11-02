@@ -1,4 +1,3 @@
- <!-- Partner Logo Section Begin -->
  <div class="partner-logo">
      <div class="container">
          <div class="logo-carousel owl-carousel">
@@ -30,4 +29,3 @@
          </div>
      </div>
  </div>
- <!-- Partner Logo Section End -->

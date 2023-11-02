@@ -28,18 +28,27 @@
 <body class="antialiased">
     {{-- header --}}
     @include('fontend.layout.header')
+    {{-- header end --}}
+    
     {{-- breadcrumb --}}
     @include('fontend.layout.breadcrumb')
+    {{-- breadcrumb end--}}
+    
     {{-- product --}}
-
     @yield('content')
+    {{-- product end --}}
 
-    <!-- Partner Logo Section Begin -->
+    {{-- Partner Logo --}}
     @include('fontend.layout.partner')
+    {{-- Partner Logo end--}}
+    
     {{-- footer --}}
     @include('fontend.layout.footer')
+    {{-- footer end --}}
+    
     {{-- script --}}
     @include('fontend.layout.script')
+    {{-- script end --}}
 </body>
 
 </html>

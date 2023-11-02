@@ -1,4 +1,3 @@
- <!-- Breadcrumb Section Begin -->
  <div class="breacrumb-section">
      <div class="container">
          <div class="row">
@@ -11,4 +10,3 @@
          </div>
      </div>
  </div>
- <!-- Breadcrumb Section Begin -->
