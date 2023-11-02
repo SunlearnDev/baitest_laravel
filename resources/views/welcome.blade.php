@@ -26,17 +26,27 @@
 </head>
 
 <body class="antialiased">
+    <!--header-->
     @include('fontend.layout.header')
-    
+    <!--header end-->
+
+    <!--breadcrumb-->
     @include('fontend.layout.breadcrumb')
+    <!--breadcrumb end-->
     
     @yield('content')
 
+    <!--Partner Logo-->
     @include('fontend.layout.partner')
-    
+    <!--Partner Logo end-->
+
+    <!--footer-->
     @include('fontend.layout.footer')
-    
+    <!--footer end-->
+
+    <!--script-->
     @include('fontend.layout.script')
+    <!--script end-->
 </body>
 
 </html>
