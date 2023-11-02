@@ -63,7 +63,7 @@
                 <!-- Options -->
                 <div class="mt-4 lg:row-span-3 lg:mt-0">
                     <h2 class="sr-only">Product information</h2>
-                    <p class="text-3xl tracking-tight text-gray-900">{{ $data->price }}</p>
+                    <p class="text-3xl tracking-tight text-gray-900">{{ number_format($data->price) }}&#8363;</p>
 
                     <!-- Reviews -->
                     <div class="mt-6">
@@ -328,4 +328,3 @@
 @endsection
 
 <script src="https://cdn.tailwindcss.com"></script>
-
