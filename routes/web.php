@@ -23,7 +23,7 @@ use App\Http\Controllers\Product;
 Route::get('search', [SearchController::class, 'search'])->name('searchresult');
 
 // Home
-Route::get('/',[Product::class,'index']);
+Route::get('/', [Product::class, 'index']);
 
 // Detail
-Route::get('/index/{id}',[Product::class,'show'])->name('show');
+Route::get('show/{id}', [Product::class, 'show'])->name('show');

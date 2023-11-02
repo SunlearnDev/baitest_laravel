@@ -11,7 +11,9 @@
                                 <div class="col-lg-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="pi-pic">
-                                            <img src="{{ $s->image }}" alt="">
+                                            <a href="{{ route('show', ['id' => $s->id]) }}">
+                                                <img src="{{ $s->image }}" alt="">
+                                            </a>
                                             <div class="sale pp-sale">Sale</div>
                                             <div class="icon">
                                                 <i class="icon_heart_alt"></i>
@@ -24,7 +26,7 @@
                                             </ul>
                                         </div>
                                         <div class="pi-text">
-                                            <a href="#">
+                                            <a href="{{ route('show', ['id' => $s->id]) }}">
                                                 <h5>{{ $s->name }}</h5>
                                             </a>
                                             <div class="product-price">
