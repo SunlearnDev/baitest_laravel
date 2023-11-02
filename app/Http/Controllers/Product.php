@@ -16,6 +16,6 @@ class Product extends Controller
     public function show($id)
     {
         $data = productModel::find($id);
-        return view("fontend.layout.showproduct", ['data' => $data]);
+        return view("fontend.layout.detail", ['data' => $data]);
     }
 }

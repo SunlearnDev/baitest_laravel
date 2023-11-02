@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="bg-white">
-        {{-- <div class="pt-6">
+        <div class="pt-6">
             <nav aria-label="Breadcrumb">
                 <ol role="list" class="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <li>
@@ -323,6 +323,9 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 @endsection
+
+<script src="https://cdn.tailwindcss.com"></script>
+
