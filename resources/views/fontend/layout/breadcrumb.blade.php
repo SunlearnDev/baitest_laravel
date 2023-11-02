@@ -1,4 +1,4 @@
- <!-- Breadcrumb Section Begin -->
+ {{-- breadcrumb --}}
  <div class="breacrumb-section">
      <div class="container">
          <div class="row">
@@ -11,4 +11,4 @@
          </div>
      </div>
  </div>
- <!-- Breadcrumb Section Begin -->
+{{-- breadcrumb end--}}

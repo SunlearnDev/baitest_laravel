@@ -26,19 +26,16 @@
 </head>
 
 <body class="antialiased">
-    {{-- header --}}
     @include('fontend.layout.header')
-    {{-- breadcrumb --}}
+    
     @include('fontend.layout.breadcrumb')
-    {{-- product --}}
-
+    
     @yield('content')
 
-    <!-- Partner Logo Section Begin -->
     @include('fontend.layout.partner')
-    {{-- footer --}}
+    
     @include('fontend.layout.footer')
-    {{-- script --}}
+    
     @include('fontend.layout.script')
 </body>
 

@@ -1,4 +1,4 @@
- <!-- Header Section Begin -->
+ {{-- header --}}
  <header class="header-section">
      <div class="header-top">
          <div class="container">
@@ -147,4 +147,4 @@
          </div>
      </div>
  </header>
- <!-- Header End -->
+{{-- header end --}}

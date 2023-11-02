@@ -1,4 +1,4 @@
- <!-- Partner Logo Section Begin -->
+ {{-- Partner Logo --}}
  <div class="partner-logo">
      <div class="container">
          <div class="logo-carousel owl-carousel">
@@ -30,4 +30,4 @@
          </div>
      </div>
  </div>
- <!-- Partner Logo Section End -->
+ {{-- Partner Logo end--}}

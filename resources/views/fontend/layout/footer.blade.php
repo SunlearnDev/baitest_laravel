@@ -1,4 +1,4 @@
-<!-- Footer Section Begin -->
+{{-- footer --}}
 <footer class="footer-section">
     <div class="container">
         <div class="row">
@@ -76,4 +76,4 @@
         </div>
     </div>
 </footer>
-<!-- Footer Section End -->
+{{-- footer end --}}
